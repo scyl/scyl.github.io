@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scyl | Computing</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/hover.css" >
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+    <div class="row" style="background:#008ce1">
+      <div class="small-5 medium-3 large-2 columns">
+        <a href="index.html"><img src="img/logo.png" alt="Logo" width="130" style="padding: 10px; margin:auto" class="hvr-bounce-out"></a>
+      </div>
+      <div class="small-6 medium-3 large-3 large-offset-7 small-offset-1 medium-offset-6 columns" style="margin-top:10px">
+        <a href="http://au.linkedin.com/in/stephencyleung"><img src="img/Linked-in.png" alt="Linked-in" width="60" class="hvr-pulse-grow "></a>
+        <a href="https://github.com/scyl"><img src="img/Github.png" alt="Github" width="60" class="hvr-pulse-grow "></a>
+      </div>
+      <div class="small-12 large-10 columns">
+        <nav class="cl-effect-1">
+          <a href="index.html">Scyl</a>
+					<a href="computing.html">Computing</a>
+					<a href="media.html">Media</a>
+					<a href="extracurricular.html">Extracurricular</a>
+				</nav>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="large-12 columns">
+      	<div class="panel">
+          <nav class="cl-effect-5">
+            <h4>
+            <a href="https://github.com/scyl/PiTemperatureHumidityServer/tree/sql"><span data-hover="See Github project">Pi Temerature Humidity Server</span></a>
+            </h4>
+          </nav>
+          <div class="small-12 medium-7 large-8 columns">
+            <p>A server that logs data from a temperature and a humidity sensor on a Raspberry Pi and serves a webpage that shows the last 48 hours of data on a graph. The graph will automically update with new records.</p>
+            <p>This server uses a DS18B20 temperature sensor along with a DHT22 humidity sensor. Data from the sensors are logged at 5 minutes intervals via a Python script on to a SQLite database. A webpage that makes Ajax calls to the server and present the data in highcharts is also included. The server is written in Node.JS</p>
+          </div>
+          <div class="small-12 medium-5 large-4 columns">
+            <ul class="clearing-thumbs clearing-feature" data-clearing>
+              <li class="clearing-featured-img"><a class="th" href="img/Pitemp1.png"><img src="img/Pitemp1.png"></a></li>
+              <li><a class="th" href="img/Pitemp2.png"><img src="img/Pitemp2.png"></a></li>
+              <li><a class="th" href="img/Pitemp3.png"><img src="img/Pitemp3.png"></a></li>
+            </ul>
+          </div>
+          <hr>
+          <nav class="cl-effect-5">
+            <h4>
+            <a href="/Games/DodgeCollector"><span data-hover="Play"> Dodge Collector</span></a>
+            </h4>
+          </nav>
+          <div class="small-12 medium-7 large-8 columns">
+            <p>Dodge Collector is a university assignment I made in a pair with the goal of creating a fast paced game that focuses on control, motion and continuously rising tension. We were required to have the user control an avatar and have objects in the game which the player has to dodge and also some objects that needs to be collected. We combined the two requirements and created Dodge Collector, a game where the player has to first dodge an incoming enemy who then turns into points that needed to be collected. <a href="/Games/GameDesignDocument.pdf">See full documentation here</a>.</p>
+            <p>I mainly worked on the idea and the coding/technical side of the game. My partner Kriska Budiman focused on designing the game's assets and finding suitable sound effects and music.</p>
+          </div>
+          <div class="small-12 medium-5 large-4 columns">
+            <ul class="clearing-thumbs clearing-feature" data-clearing>
+              <li class="clearing-featured-img"><a class="th" href="img/DodgeCollector.jpg"><img src="img/DodgeCollector.jpg"></a></li>
+              <li><a class="th" href="img/DodgeCollector1.png"><img src="img/DodgeCollector1.png"></a></li>
+              <li><a class="th" href="img/DodgeCollector2.png"><img src="img/DodgeCollector2.png"></a></li>
+              <li><a class="th" href="img/DodgeCollector3.png"><img src="img/DodgeCollector3.png"></a></li>
+            </ul>
+          </div>
+          <hr>
+	        <h5>Click on the titles to see more detail. See my <a href="https://github.com/scyl">Github</a> for more projects I've worked on</h5>
+      	</div>
+      </div>
+    </div>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
